@@ -1,0 +1,28 @@
+.header{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(88, 142, 149);
+    border: 2px solid rgb(197, 196, 196);
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  }
+  header button{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 18px;
+    border: none;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+  }
+  button:hover{
+    background-color: red;
+    transition: 0.8s;
+  }
